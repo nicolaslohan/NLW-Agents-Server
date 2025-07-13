@@ -6,7 +6,7 @@ import { z } from 'zod/v4'
 
 
 export const getRoomQuestionsRoute: FastifyPluginCallbackZod = (app) => {
-    app.get('/rooms/:roomId/questions', {
+    app.get('/room/:roomId/questions', {
         schema: {
             params: z.object({
                 roomId: z.string()
