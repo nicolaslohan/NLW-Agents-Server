@@ -15,6 +15,13 @@
       "when": 1752413558256,
       "tag": "0001_milky_warlock",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752457468960,
+      "tag": "0002_strange_exodus",
+      "breakpoints": true
     }
   ]
 }
